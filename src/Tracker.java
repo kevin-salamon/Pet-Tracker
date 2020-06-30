@@ -61,15 +61,15 @@ public class Tracker {
                     System.out.println("Okay, so the owner is " + petOwnerName + ". Here are the pets:");
                     System.out.println("Dogs:");
                     for(Dog dog : dogs) {
-                        System.out.println(dog.name + " is " + dog.age + " year(s) old. This dog's coat is " + color + " and the breed is " + dog.breed + ".");
+                        System.out.println(dog.name + " is " + dog.age + " year(s) old. This dog's coat is " + dog.color + " and the breed is " + dog.breed + ".");
                     }
                     System.out.println("Cats:");
                     for(Cat cat : cats) {
-                        System.out.println(cat.name + " is " + cat.age + " year(s) old. This cats's coat is " + color + ", and it is a " + cat.consistency + "-haired cat.");
+                        System.out.println(cat.name + " is " + cat.age + " year(s) old. This cats's coat is " + cat.color + ", and it is a " + cat.consistency + "-haired cat.");
                     }
                     System.out.println("Fish:");
                     for(Fish fishy : fish) {
-                        System.out.println(fishy.name + " is " + fishy.age + " year(s) old. This fish's scales are " + color + ", and it is a " + fish.size + " fish.");
+                        System.out.println(fishy.name + " is " + fishy.age + " year(s) old. This fish's scales are " + fishy.color + ", and it is a " + fishy.size + " fish.");
                     }
                     System.out.println("And that's all the pets! Thanks for using the Pet Tracker today!");
                     break;
