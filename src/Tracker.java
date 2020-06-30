@@ -26,7 +26,28 @@ public class Tracker {
         System.out.println("Now, let's begin by entering your pets.");
 
         while (true) {
-            
+            System.out.println("What pet would you like to add?");
+            System.out.println("1. Add a dog.");
+            System.out.println("2. Add a cat.");
+            System.out.println("3. Add a fish.");
+            System.out.println("4. I've added all my pets.");
+            if (key.hasNextInt()) {
+                int petChoice = key.nextInt();
+                if (petChoice == 1) {
+
+                } else if (petChoice == 2) {
+
+                } else if (petChoice == 3) {
+
+                } else if (petChoice == 4) {
+
+                } else {
+                    System.out.println("Please choose from the available 4 options.");
+                }
+            } else {
+                System.out.println("Please choose from the available 4 options.");
+                key.next();
+            }
         }
     }
 
